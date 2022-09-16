@@ -1,14 +1,14 @@
 .menuElement {
-
     width: 50%;
-    height:500px ;  
+    height:700px;  
     transition: all .3s;  
-
+    overflow: hidden;
 }
 
-.menuElement:hover {
 
-    transform: scale(1.09);
+
+.menuElement:hover {
+    transform: scale(1.05);
 }
 
 .filtro {
@@ -23,32 +23,38 @@
 }
 
 
+
+
+.filtro:hover{
+    backdrop-filter: blur(0px);
+}
+
 .menuElement a{
     color: white;
     text-decoration: none;
     font-size: 40px;
     font-weight: bolder;
 
+
 }
 
 .abogado {
-    overflow: hidden;
-    background-image: url("../assets/abogadoimg.jpg");
+    background-image: url("../assets/abogadoimg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .tramites {
-    overflow: hidden;
-
     background-image: url("../assets/tramites.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;}
+    background-size: cover;
+}
 
 @media (max-width: 600px) { 
     .menuElement {
+    
         width: 100%;
     }
 }
