@@ -1,0 +1,20 @@
+.principal {
+    text-align: center;
+    width: 100%;
+    margin: 30px auto;
+
+
+}
+
+.principal h1 {
+    margin: 15px auto;
+}
+
+.menu {
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
