@@ -1,6 +1,6 @@
 .menuElement {
     width: 50%;
-    height:700px;  
+    height:750px;  
     transition: all .3s;  
     overflow: hidden;
 }
@@ -12,6 +12,7 @@
 }
 
 .filtro {
+    font-family: 'Poppins', sans-serif;
     transition: all .3s;  
     overflow:hidden;
     display: flex;
@@ -33,9 +34,7 @@
     color: white;
     text-decoration: none;
     font-size: 40px;
-    font-weight: bolder;
-
-
+    font-weight:600;
 }
 
 .abogado {

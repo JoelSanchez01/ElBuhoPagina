@@ -8,9 +8,8 @@
 
 .principal h1 {
     margin: 15px auto;
-    font-weight: bold;
-    font-family: 'Red Hat Display', sans-serif;
-}
+    font-weight:700;
+    font-family: 'IBM Plex Sans', sans-serif;}
 
 .menu {
     overflow: hidden;
