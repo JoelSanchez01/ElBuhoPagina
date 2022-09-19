@@ -7,6 +7,6 @@ import Abogados from "./pages/Abogados"
 import Tramites from "./pages/Tramites"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <Abogados />
+      <Start />
   </React.StrictMode>
 )

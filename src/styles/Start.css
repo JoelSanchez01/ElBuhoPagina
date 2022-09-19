@@ -8,6 +8,8 @@
 
 .principal h1 {
     margin: 15px auto;
+    font-weight: bold;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .menu {
