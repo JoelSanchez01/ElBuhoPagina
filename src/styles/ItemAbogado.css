@@ -1,8 +1,43 @@
 .itemAbogado {
     margin: 15px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white; 
+    border: 1px solid black;
+    transition: all .3s ease-in-out;
 }
 
-.itemAbogado .foto {
-    margin: 15px;
+.itemAbogado:hover{
+    transform: scale(1.1);
+    color: #b7b7b7;
 }
+
+
+.itemAbogado .foto {
+    margin: 20px;
+ }
+
+ .itemAbogado .foto img {
+    width: 150px;
+    border-radius: 150px;
+ }
+
+
+.itemAbogado .estrellas {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemAbogado .texto h2 {
+    text-align: center;
+}
+
+.itemAbogado .texto {
+    width: 30%;
+    text-align: justify;
+}
+
