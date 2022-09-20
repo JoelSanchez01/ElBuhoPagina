@@ -1,0 +1,8 @@
+.itemAbogado {
+    margin: 15px;
+    display: flex;
+}
+
+.itemAbogado .foto {
+    margin: 15px;
+}
