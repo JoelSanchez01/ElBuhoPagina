@@ -1,11 +1,23 @@
 .abogadoSection {
-    width: 70%;
+    width: 80%;
     margin: 60px auto;
     background-color:#5D5B6A;
     border-radius: 10px;
     padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
 }
+
+
 
 .abogadoSection h1 {
     margin: 30px;
+    color: white;
+}
+
+.abogadoSectionFather{
+    width: 90%;
+    margin: 30px auto;
 }

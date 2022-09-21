@@ -20,4 +20,8 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #242424;
+  color: white;
+}
 

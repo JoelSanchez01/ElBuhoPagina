@@ -1,28 +1,33 @@
 .itemAbogado {
-    margin: 15px;
+    margin: 10px 30px;
+    padding: 30px;
     display: flex;
+   background-color: #c5c5c5;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
     text-decoration: none;
-    color: white; 
-    border: 1px solid black;
+    color: black; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
     transition: all .3s ease-in-out;
+    width: 45%;
+    flex-direction: column;
+}
+
+ .card {
+    width: 1000px;
 }
 
 .itemAbogado:hover{
-    transform: scale(1.1);
-    color: #b7b7b7;
+    transform: scale(1.05);
+    color:  #4d4d4d;
 }
 
-
-.itemAbogado .foto {
-    margin: 20px;
- }
-
- .itemAbogado .foto img {
-    width: 150px;
+ img {
+    width: 100px;
     border-radius: 150px;
+    margin-bottom: 30px;
  }
 
 
@@ -32,12 +37,12 @@
     justify-content: center;
     align-items: center;
 }
-.itemAbogado .texto h2 {
-    text-align: center;
-}
 
 .itemAbogado .texto {
-    width: 30%;
+    width: 100%;
     text-align: justify;
 }
 
+.card-img, .card-img-top {
+    border-radius: 0;
+}
