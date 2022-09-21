@@ -9,7 +9,7 @@ const Abogados = () => {
 
                 <div className='abogadoSection'>
                     {
-                        data.map(abogado =>  <ItemAbogado key={abogado.id} foto={abogado.foto} nombre={abogado.nombre} telefono={abogado.telefono}  direccion={abogado.direccion} /> )
+                        data.map(abogado =>  <ItemAbogado key={abogado.id} foto={abogado.foto} nombre={abogado.nombre} direccion={abogado.direccion} telefono={abogado.telefono} red={abogado.red} link={abogado.link} /> )
                     }                    
                 </div>
     </div>
