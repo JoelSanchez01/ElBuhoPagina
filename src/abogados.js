@@ -5,7 +5,7 @@ const datos = [
         "nombre": "Bufete Jurídico Arteaga - BJA ABOGADOS",
         "direccion": "Calle Cristóbal Colon 104 norte zona centro de Tampico Tercer Piso #105 89000 Tampico, Tamps ",
         "telefono": "833 137 1740",
-        "red": "fb",
+        "red": "Facebook",
         "link": "https://www.facebook.com/Bufetearteagayasoc"
     },
     {
@@ -22,7 +22,7 @@ const datos = [
         "nombre": "Abogados del Trabajo Tampico Madero y Altamira",
         "direccion": "Tienda Milano, Edificio Edith, Calle: Colon N° 104 NORTE, Segundo Piso Despacho N° 207 89000, 89000 Tampico, Tamps.",
         "telefono": "833 307 6427",
-        "red": "fb",
+        "red": "Facebook",
         "link": "https://www.facebook.com/abogadosentamaulipas"
     },
     {
@@ -87,7 +87,7 @@ const datos = [
         "nombre":"Lic. Víctor Zulaica - Abogado Fiscalista - Derecho Fiscal (Tributario) y Administrativo.",
         "direccion": "Universidad, U. de Wisconsin #707, 89707 Tampico, Tamps.",
         "telefono": "833 311 9572",
-        "red": "fb",
+        "red": "Facebook",
         "link": "https://www.facebook.com/vzumx"
     },
     {
@@ -96,7 +96,7 @@ const datos = [
         "nombre":"SALDRESE y Asociados Abogado",
         "direccion": "Benito Juárez 501-A, Zona Centro, 89000 Tampico, Tamps.",
         "telefono": "833 459 5869",
-        "red": "web",
+        "red": "Pagina Web",
         "link": "http://www.saldreseyasociados.com/contacto"
     },
     {
