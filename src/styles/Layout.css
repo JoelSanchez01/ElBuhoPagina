@@ -1,0 +1,17 @@
+.layout .texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.layout .texto a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.layout .texto a:hover {
+color: rgb(167, 167, 167);
+}

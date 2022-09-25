@@ -5,10 +5,9 @@ import MenuElement from '../sections/MenuElement';
 
 const Start = () => {
     return <div className="principal">
-        <h1>BuscaElBuho.com</h1>
         <div className='menu'>
-        <MenuElement nombre="Abogados" clase="abogado" />
-        <MenuElement nombre="Tramites" clase="tramites" />
+        <MenuElement nombre="Abogados" clase="abogado" link="/abogados" />
+        <MenuElement nombre="Tramites" clase="tramites" link="/tramites" />
 
         </div>
     </div>

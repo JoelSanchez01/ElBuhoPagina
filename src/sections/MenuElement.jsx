@@ -1,17 +1,19 @@
 import React from "react";
 import "../styles/menuElement.css"
+import { Link } from "react-router-dom";
 
 const MenuElement = props => {
-    let { nombre, clase } = props;
+    let { nombre, clase, link } = props;
 
     clase += " menuElement"
 
     return <div className={clase}>
-        <a href="">
+        
+        <Link to={link}>
             <div className="filtro">
                 <p>{nombre}</p>
             </div>
-        </a>
+        </Link>
 
 
 
