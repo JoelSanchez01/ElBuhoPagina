@@ -15,3 +15,17 @@
 .layout .texto a:hover {
 color: rgb(167, 167, 167);
 }
+
+@media (max-width: 600px) { 
+    .layout .texto a {
+        font-size: 5px;
+        margin: 0 10px;
+    }
+
+    .layout .texto a h1 {
+        font-size: 25px;
+    }
+    .layout .texto a h3 {
+        font-size: 18px;
+    }
+}

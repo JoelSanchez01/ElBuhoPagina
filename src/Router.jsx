@@ -5,13 +5,13 @@ import Abogados from "./pages/Abogados"
 import Tramites from "./pages/Tramites"
 import Layout from "./sections/Layout"
 //src > Router.js
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 const Router = () => {
 
   return (
     
     
-    <BrowserRouter>
+    <HashRouter>
     <Layout>
         <Routes>
           <Route path="/" element={<Start />}></Route>
@@ -19,7 +19,7 @@ const Router = () => {
           <Route path="tramites" element={<Tramites />}></Route>
         </Routes>
     </Layout>
-      </BrowserRouter>
+      </HashRouter>
       );
 };
 export default Router;
