@@ -38,14 +38,14 @@
 }
 
 .abogado {
-    background-image: url("../assets/abogadoimg.png");
+    background-image: url("/abogadoimg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .tramites {
-    background-image: url("../assets/tramites.jpg");
+    background-image: url("/tramites.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
